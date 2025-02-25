@@ -1,0 +1,23 @@
+# Gestão de Permissões, Datacenters e Segurança no Azure
+
+## Introdução
+
+Este documento fornece um guia passo a passo para conceder permissões a grupos de recursos no Azure, entender a distribuição dos datacenters da Azure no Brasil, a configuração de pares de regiões para redundância e as considerações de segurança de dados de acordo com a LGPD (Lei Geral de Proteção de Dados).
+
+## Passo 1: Conceder Permissões a Grupos de Recursos
+
+### 1.1 Concedendo Permissões via Portal do Azure
+
+1. Acesse o [Portal do Azure](https://portal.azure.com/).
+2. Navegue até "Grupos de Recursos" e selecione o grupo de recursos desejado.
+3. Clique em "Controle de acesso (IAM)" no menu lateral.
+4. Clique em "Adicionar" > "Adicionar atribuição de função".
+5. Selecione a função adequada (por exemplo, "Colaborador", "Leitor").
+6. Procure o usuário ou grupo ao qual deseja conceder a permissão.
+7. Clique em "Salvar".
+
+### 1.2 Concedendo Permissões via Azure CLI
+
+1. Faça login na sua conta do Azure:
+   ```sh
+   az login
