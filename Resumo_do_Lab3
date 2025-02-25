@@ -1,0 +1,14 @@
+# Criando um Banco de Dados SQL no Azure e Configurando uma VM
+
+no Azure e configurar uma máquina virtual (VM) para acessá-lo.
+
+## Pré-requisitos
+
+- Conta no Azure
+- Azure CLI instalado
+- Conta do GitHub (opcional, para versionamento do README)
+
+##O Que São Regras de Firewall no Azure?
+Regras de firewall são configurações que permitem ou bloqueiam o 
+tráfego de rede para e a partir dos recursos do Azure, com base em endereços IP. 
+Elas são essenciais para garantir a segurança dos seus dados, permitindo apenas que endereços IP confiáveis acessem seus recursos.
