@@ -1,0 +1,21 @@
+# Configuração Segura de uma Máquina Virtual no Azure
+
+Este guia descreve como configurar uma Máquina Virtual (VM) no Azure, configurar o IP da rede de modo seguro, configurar acesso via VPN ou SSH, ativar a exclusão da VM para evitar cobranças incorretas e escolher uma região econômica.
+
+## Pré-requisitos
+
+- Conta no Azure
+- Azure CLI instalado
+- Cliente SSH instalado
+
+## Passo 1: Criar uma Máquina Virtual
+
+1. **Login no Azure CLI**:
+   ```sh
+   az login
+
+Abra apenas as portas necessárias para SSH (22) ou VPN e feche todas as outras:
+
+ssh meu-usuario@<endereço-IP-da-sua-VM>
+
+Configure uma VPN Point-to-Site ou Site-to-Site no Azure e configure as regras de rede para permitir o acesso através da VPN.
