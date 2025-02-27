@@ -1,0 +1,50 @@
+# Azure Language Studio
+
+## Descrição
+O Azure Language Studio é uma ferramenta poderosa para criar, testar e implantar modelos de linguagem natural. Ele oferece suporte para várias funcionalidades, como tradução, reconhecimento de fala, análise de sentimento, entre outras.
+
+## Funcionalidades
+- **Tradução de Texto**: Traduza textos entre diferentes idiomas utilizando a API de Tradução da Azure.
+- **Reconhecimento de Fala**: Converta fala em texto e texto em fala com alta precisão.
+- **Análise de Sentimento**: Detecte o sentimento de um texto, identificando emoções como positivo, negativo ou neutro.
+- **Extração de Entidades**: Extraia informações relevantes de textos, como nomes de pessoas, locais e datas.
+
+## Instalação
+1. **Clone o repositório**:
+    ```bash
+    git clone https://github.com/seu-usuario/azure-language-studio.git
+    ```
+2. **Navegue até o diretório do projeto**:
+    ```bash
+    cd azure-language-studio
+    ```
+3. **Instale as dependências**:
+    ```bash
+    npm install
+    ```
+
+1. **Configuração do Azure**:
+    - Crie uma conta no Azure e configure o Language Studio seguindo as instruções no [site oficial](https://azure.microsoft.com/pt-br/services/cognitive-services/language-service/).
+    - Insira as chaves de API e as informações necessárias no arquivo de configuração.
+
+3. **Exemplo de Tradução**:
+    ```javascript
+    const axios = require('axios');
+
+    async function translateText(text, fromLang, toLang) {
+        const response = await axios.post(`https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&from=${fromLang}&to=${toLang}`, [
+            { 'Text': text }
+        ], {
+            headers: {
+                'Ocp-Apim-Subscription-Key': 'SUA_CHAVE_DE_API',
+                'Content-Type': 'application/json'
+            }
+        });
+
+        return response.data[0].translations[0].text;
+    }
+    
+    translateText('Olá mundo', 'pt', 'en').then(translatedText => console.log(translatedText));
+
+## Contato
+Para dúvidas ou sugestões, entre em contato em [seu-email@exemplo.com](mailto:seu-email@exemplo.com).
