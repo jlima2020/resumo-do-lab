@@ -1,0 +1,34 @@
+# Explorador de Arquivos no Azure para Análise de Palavras-Chave
+
+## Descrição do Projeto
+Este projeto utiliza serviços da plataforma Azure para criar uma aplicação robusta e escalável que permite a análise de palavras-chave em documentos e arquivos. Ele é projetado para fornecer insights personalizados sobre finanças e investimentos, tornando-o ideal tanto para empresas quanto para usuários finais.
+
+## Recursos e Funcionalidades
+- **Busca Avançada com Azure Cognitive Search**: Identificação de palavras-chave, tendências e padrões nos documentos.
+- **Extração de Dados com Azure Form Recognizer**: Extração automatizada de informações específicas, como valores financeiros e datas.
+- **Modelos Personalizados com Azure Machine Learning**: Criação de modelos de aprendizado de máquina para identificar gastos, lucros e outros indicadores relevantes.
+- **Visualizações Interativas com Power BI**: Dashboards detalhados para análise financeira e de investimentos.
+- **Armazenamento Seguro com Azure Blob Storage**: Armazenamento seguro e escalável para todos os documentos e dados.
+
+## Benefícios
+- Otimiza a análise de gastos e lucros organizacionais.
+- Oferece insights valiosos e personalizados aos usuários finais.
+- Integração perfeita com serviços da plataforma Azure.
+
+## Pré-requisitos
+- Assinatura ativa no Microsoft Azure.
+- Conhecimento básico em serviços de nuvem Azure.
+- Permissões adequadas para criar e configurar serviços no Azure.
+
+## Configuração do Ambiente
+1. Configurar o **Azure Cognitive Search** para criar índices e consultas personalizadas.
+2. Configurar o **Azure Form Recognizer** para analisar e extrair dados de documentos.
+3. Criar e treinar modelos no **Azure Machine Learning**.
+4. Configurar dashboards no **Power BI** e conectar aos dados.
+5. Armazenar documentos e resultados no **Azure Blob Storage**.
+
+## Contribuindo
+Contribuições são bem-vindas! Por favor, envie suas sugestões ou relatórios de bugs através de issues ou pull requests.
+
+## Licença
+Este projeto é distribuído sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
