@@ -1,0 +1,20 @@
+# Projeto de Análise de Imagens com Azure e OpenAI
+Este projeto utiliza os serviços do Azure e OpenAI para realizar análises de imagens, seguindo as diretrizes de IA responsável.
+
+## Planejar
+- **Objetivos**: Melhorar a detecção de objetos em imagens.
+- **Riscos Identificados**: Potenciais vieses no reconhecimento de objetos.
+- **Conformidade**: Aderência à LGPD e outras regulamentações.
+
+## Medir
+- **Desempenho**: Avaliação contínua da precisão e eficácia do modelo.
+- **Métricas**: Monitoramento das métricas de conformidade e desempenho.
+
+## Mitigar
+- **Estratégias**: Implementação de ajustes no modelo para reduzir vieses.
+- **Plano de Resposta**: Procedimentos para resposta rápida a incidentes.
+
+## Operar
+- **RBAC**: Controle de acesso baseado em funções para segurança dos dados.
+- **Monitoramento**: Sistemas contínuos de monitoramento e ajuste.
+- **Treinamento**: Capacitação dos usuários sobre IA responsável e LGPD.
